@@ -10,6 +10,7 @@ General overview of the approach:
 Further improvements which can be made
  - implement testing of different combinations of transport and modes of allocating results
  - preview situation when 0 results are found
- - enlarge reports
+ - preview veryfing acsending sorting for multipage result
+ - add fine reporting
 
 Note: Main comments are inside code itself.
