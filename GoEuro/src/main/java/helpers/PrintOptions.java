@@ -1,9 +1,9 @@
-package test.java.com.goeuro.Helpers;
+package main.java.helpers;
 
 import java.util.List;
 
 /**
- Class with realization printing commands
+ * Created by xsoroka on 3/6/2016.
  */
 public class PrintOptions {
 
@@ -17,5 +17,9 @@ public class PrintOptions {
         System.out.println(info);
     }
 
-
+    public static void print(List info)
+    {
+        for (Object object : info)
+            System.out.println(object);
+    }
 }

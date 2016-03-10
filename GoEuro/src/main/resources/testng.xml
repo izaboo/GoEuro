@@ -5,7 +5,7 @@
     </listeners>
   <test name="Compare prices for travel" >
     <classes>
-       <class name="test.java.com.goeuro.SearchVerificationTest" />
+       <class name="test.java.com.goeuro.SearchVerificationTests" />
     </classes>
   </test>
  </suite>

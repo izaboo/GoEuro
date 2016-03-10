@@ -2,6 +2,11 @@ package test.java.com.goeuro.configuration;
 
 /**
  * Created by xsoroka on 3/6/2016.
+ * This calss realizes general preparations for running tests.
+ * In this assignment only Before and After method annotations used due to simple test, however further actions possilble as complicated tests added:
+ *  - suites actions
+ *  - dataprovider initialization etc
+
  */
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +28,7 @@ public class GeneralTestPreparation {
         fp.setPreference("xpinstall.signatures.required", false);
         driver = new FirefoxDriver(fp);
         driver.get("http://goeuro.com");
-        driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
