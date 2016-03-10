@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GoEuro" verbose="1" >
+	<listeners>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+  <test name="Compare prices for travel" >
+    <classes>
+       <class name="test.java.com.goeuro.SearchVerificationTest" />
+    </classes>
+  </test>
+ </suite>
