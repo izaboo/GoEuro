@@ -14,3 +14,7 @@ Further improvements which can be made
  - add fine reporting
 
 Note: Main comments are inside code itself.
+
+This project realizes the following challenge:
+
+GoEuro lists the travel results sorted by cheapest, fastest or by time (departure/arrival). Please create an automated test that will make a search (Eg.: Berlin ­ Prague) and will verify that the sorting by price is correct.
